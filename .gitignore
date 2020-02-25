@@ -1,0 +1,17 @@
+node_modules
+cypress/report/mochawesome-report/mochawesome_001.json
+cypress/report/mochawesome-report/mochawesome.json
+cypress/report/mochawesome-report/report.html
+cypress/report/mochawesome-report/assets/app.css
+cypress/report/mochawesome-report/assets/app.js
+cypress/report/mochawesome-report/assets/MaterialIcons-Regular.woff
+cypress/report/mochawesome-report/assets/MaterialIcons-Regular.woff2
+cypress/report/mochawesome-report/assets/roboto-light-webfont.woff
+cypress/report/mochawesome-report/assets/roboto-light-webfont.woff2
+cypress/report/mochawesome-report/assets/roboto-medium-webfont.woff
+cypress/report/mochawesome-report/assets/roboto-medium-webfont.woff2
+cypress/report/mochawesome-report/assets/roboto-regular-webfont.woff
+cypress/report/mochawesome-report/assets/roboto-regular-webfont.woff2
+cypress/report/mochawesome-report/assets/examples/FirstTest.js/First Test Suite -- Verify Page Title Neg (failed).png
+cypress/videos/examples/FirstTest.js.mp4
+cypress/videos/examples/SecondTest.js.mp4

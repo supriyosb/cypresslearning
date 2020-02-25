@@ -1,0 +1,14 @@
+{
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/report/mochawesome-report",
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
+    },
+    "screenshotsFolder": "cypress/report/mochawesome-report/assets"
+}

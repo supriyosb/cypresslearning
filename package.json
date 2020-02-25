@@ -1,0 +1,25 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean-report": "if exist cypress\\report\\mochawesome-report rmdir /q /s cypress\\report\\mochawesome-report",
+    "pretest": "npm run clean-report",
+    "scripts": "node_modules\\.bin\\cypress run",
+    "combine-reports": "npx mochawesome-merge cypress/report/mochawesome-report/*.json > report.json",
+    "generate-report": "npx marge report.json -f report -o cypress/report/mochawesome-report",
+    "posttest": "npm run combine-reports && npm run generate-report",
+    "test": "npm run scripts || npm run posttest"
+  },
+  "author": "Supriyo",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.0.2",
+    "cypress-multi-reporters": "^1.2.4",
+    "mocha": "^7.0.1",
+    "mochawesome": "^4.1.0",
+    "mochawesome-merge": "^4.0.1",
+    "mochawesome-report-generator": "^4.1.0"
+  }
+}

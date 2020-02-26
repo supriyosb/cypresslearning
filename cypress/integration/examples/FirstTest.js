@@ -9,7 +9,7 @@ describe('First Test Suite', function(){
 
     it('Verify Page Title Neg', function(){
         cy.visit("https://demo.nopcommerce.com/")
-        cy.title().should('be.eq', 'nopCommerce demo')
+        cy.title().should('be.eq', 'nopCommerce demo store')
     })
 
 })

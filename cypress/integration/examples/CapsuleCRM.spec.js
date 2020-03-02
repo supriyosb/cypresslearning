@@ -8,7 +8,7 @@ describe('Capsule CRM spec 1', function(){
         const lp = new LoginPage()
         lp.visit()
         cy.title().should('be.equal', 'Home CRM')
-        lp.login('supriyo.sb', 'berhampor')
+        lp.login('supriyo.sb', 'berhampore')
         cy.title().should('be.equal', 'Dashboard | Home CRM')
     })
 
